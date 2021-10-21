@@ -1,0 +1,126 @@
+/*deklarasi Font*/
+@font-face{
+			font-family: 'BebasNeue-Regular';
+			src: url('../font/BebasNeue-Regular.woff') format('woff');
+		}
+@font-face{
+			font-family: 'Confetti';
+			src: url('../font/Confetti.ttf');
+			src: url('../font/Confetti.ttf') format('ttf'),
+			url('../font/Confetti.ttf') format('truetype');
+		}
+
+
+/*File CSS*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'BebasNeue-Regular',arial;
+}
+
+body{
+	background: #363636;
+	min-height: 200vh;
+}
+
+
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	z-index: 100000;
+
+}
+
+header.sticky{
+	padding: 5px 100px;
+	background: #fff;
+
+}
+header .awan {
+	font-family: 'Confetti';
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+}
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li{
+	position: relative;
+	list-style: none;
+}
+header ul li a{
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.6s;
+
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(jombangb.jpg);
+	background-size: cover;
+}
+
+header.sticky .awan{
+	color: #000;
+}
+header.sticky ul li a{
+	color:#000;
+}
+
+
+/*KONTEN*/
+h2{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	margin-top: 100px;
+}
+
+p{
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+
+/*FORM*/
+ .container{
+ 	color: white;
+    padding: 30px;
+    background-color: #363636;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,15);
+  }
+.logo{
+  position: relative;
+  margin: 20px auto;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}

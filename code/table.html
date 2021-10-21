@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css"  href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <title>Biodata</title>
+ <style>
+ body{
+         font-family: arial;
+         color: white;
+         background-color:  #363636;
+     }
+  h1{
+    font-family: 'Roboto-Medium',arial;
+  }
+  /*.picture{
+    display: block;
+    position: relative;
+    margin: 150px auto;
+    width: 220px;
+    height: 220px;
+    padding-top: 0px;
+    border-radius: 50%;
+    background-color: white;
+  }*/
+
+  .pictures img{
+  margin-top :4px auto;
+  display: flex;
+  position: relative;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0px 0px 15px black;
+
+  }
+
+    .pictures h1{
+    display: block;
+  position: relative;
+ margin: 70px auto;
+text-align: center;
+  }
+
+#foto{
+  position: relative;
+ margin: 100px auto;
+  height: 200px;
+  width: 200px;
+    border-radius: 50%;
+  }
+
+   a img{
+  display: flex;
+  position: relative;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+
+  }
+.logo{
+  position: relative;
+  margin: 20px auto;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+
+}
+
+  .container{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,15);
+  }
+  .nav-item a{
+      color: white;
+    }
+
+ /*  .c{
+     background-color: #72e4e4;
+     font-family: arial;
+   }
+   .a{
+     background-color: #8cf9f9;
+   }*/
+ </style>
+</head>
+<body>
+  <header>
+   <a href="#" class="awan">Awan</a>
+   <ul>
+     <li><a href="../index.html">Home</a></li>
+     <li><a href="Galery.html">Galery</a></li>
+     <li><a href="table.html">Profile</a></li>
+     <li><a href="jadwal.html">Jadwal</a></li>
+     <li><a href="wisata.html">Wisata</a></li>
+   </ul>
+</header>
+
+<!-- <nav class="navbar navbar-expand-lg bg-drak">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Home.html">Awan WEB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galery.html">Galery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="table.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="jadwal.html">Jadwal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wisata.html">Wisata</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+<div class="pictures">
+<img id="foto"i src="../foto/1.jpg">
+  <h1 class="" style="font-family: 'BebasNeue-Regular', arial; color: white;">My Profile</h1>
+</div>
+<div class="container">
+    <table class="table">
+    <tr class="table-primary">
+      <td><b>Nama Lengkap</b></td>
+      <td>: Irawan Dwiarno P</td>
+    </tr>
+    <tr >
+      <td><b>NRP</td>
+      <td>: 3121600020</td>
+    </tr>
+    <tr class="table-primary">
+      <td ><b>Kelas</b></td>
+      <td>: 1D4 IT A</td>
+    </tr>
+    <tr >
+      <td><b>Jenis Kelamin</b></td>
+      <td>: Laki - Laki</td>
+    </tr>
+    <tr class="table-primary" >
+      <td><b>Agama</b></td>
+      <td>: Islam</td>
+    </tr>
+    <tr >
+      <td><b>Alamat</b></td>
+      <td>: Jombang Jawa timur</td>
+    </tr>
+    <tr class="table-primary">
+      <td><b>Hoby</b></td>
+      <td>: Bermain Game</td>
+    </tr>
+    <tr >
+      <td><b>Pekerjaan</b></td>
+      <td>: Mahasiswa</td>
+    </tr>
+    <tr class="table-primary">
+      <td><b>Kewarganegaraan</b></td>
+      <td>: Indonesia</td>
+    </tr>
+</table>
+</div>
+<div class="footers bg-drak">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 ">© 2021 Awan Company, Inc</p>
+      <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" href="../index.html"><img class="logo" src="../foto/logo.png"></a>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link px-2" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-2" href="">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-2" href="">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-2" href="">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-2" href="">About</a>
+        </li>
+      </ul>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+		@font-face{
+			font-family: 'Roboto-Medium';
+			src: url('../Roboto/Roboto-Medium.ttf');
+			src: url('../Roboto/Roboto-Medium.ttf') format('ttf'),
+			url('../Roboto/Roboto-Medium.ttf') format('truetype');
+		}
+		@font-face{
+			font-family: 'BebasNeue-Regular';
+			src: url('../font/BebasNeue-Regular.woff') format('woff');
+		}
+		@font-face{
+			font-family: 'Confetti';
+			src: url('../font/Confetti.ttf');
+			src: url('../font/Confetti.ttf') format('ttf'),
+			url('../font/Confetti.ttf') format('truetype');
+		}
+		body{
+			font: 18px/36px 'BebasNeue-Regular', 'Arial Narrow', arial, sans-serif;
+		}
+	.pens{
+		width: 60%;
+		height: 10%;
+	}
+img{
+	max-width: 100%;
+}
+.gallery{
+	/*background-color: #dbddf1;*/
+	height: 100%;
+	padding: 80px 0;
+
+}
+.gallery img{
+	background-color:  #363636;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,15);
+	cursor: pointer;
+}
+.welcom{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	margin: 10px auto;
+	padding:30px;
+	color: white;
+	background: #f67828;
+}
+
+.container-fluid a{
+	color: white;
+}
+   a img{
+  display: flex;
+  position: relative;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+
+  }
+.logo{
+  position: relative;
+  margin: 20px auto;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.footers{
+      width: 100%;
+      height: 170px;
+      margin-bottom: -30px;
+      color: white;
+    }
+
+footer p{
+	color: white;
+}
+
+.wisata{
+	margin-top: 100px;
+	margin-left: 20px;
+	font-family: 'Kaushan Script',arial;
+}
+.card{
+	background: #363636;
+	box-shadow: 0 0 15px black;
+	margin: 30px;
+}
+.borderless{
+	margin-top: 100px;
+}
+
+.table .card{
+	background: #363636;
+	color: white;
+	box-shadow: 0 0 15px black;
+	margin: 30px;
+}
+
+.table .card .card-header{
+	color: white;
+	box-shadow: 0px 2px 9px black;
+}
+
+.detile{
+	width: 80%;
+	display: block;
+	position: relative;
+	margin: 50px; 
+	text-align: left;
+	line-height: 27px;
+}
+
+.border-bottom{
+	margin-top: 20px;
+}
+
+.borderless td, .borderless th{
+	border:none;
+}
+
+/*banner*/
+
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 5px 100px;
+	background: #fff;
+	z-index: 100000;
+}
+
+header .awan {
+	font-family:'Confetti','BebasNeue-Regular',arial;
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+	color: #000;
+}
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li{
+	position: relative;
+	list-style: none;
+}
+header ul li a{
+	font-family: 'BebasNeue-Regular',arial;
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #000;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.6s;
+
+}

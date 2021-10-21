@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+	<title></title>
+</head>
+<body>
+<header>
+   <a href="#" class="awan">Awan</a>
+   <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="code/galery.html">Galery</a></li>
+     <li><a href="code/table.html">Profile</a></li>
+     <li><a href="code/jadwal.html">Jadwal</a></li>
+     <li><a href="code/wisata.html">Wisata</a></li>
+   </ul>
+</header>
+<section class="banner"></section>
+<script type="text/javascript">
+	window.addEventListener("scroll",function(){
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY > 0);
+	})
+</script>
+</body>
+</html>
